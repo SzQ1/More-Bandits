@@ -1,0 +1,74 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "map_extras": {
+      "forest": {
+        "chance": 20,
+        "extras": {
+          "mx_bandits_outpost": 8
+        }
+      },
+      "forest_thick": {
+        "chance": 20,
+        "extras": {
+          "mx_bandits_ambush": 20,
+          "mx_bandits_grave": 5,
+          "mx_bandits_outpost": 20
+        }
+      },
+      "forest_water": {
+        "chance": 20,
+        "extras": {
+          "mx_bandits_ambush": 20,
+          "mx_bandits_grave": 10,
+          "mx_bandits_outpost": 25
+        }
+      },
+      "field": {
+        "chance": 6,
+        "extras": {
+          "mx_bandits_ambush": 10,
+          "mx_bandits_campsite": 5,
+          "mx_bandits_grave": 2,
+          "mx_bandits_outpost": 2
+        }
+      },
+      "road": {
+        "chance": 75,
+        "extras": {
+          "mx_bandits_ambush": 100
+        }
+      },
+      "bridgehead_ground": { "chance": 5, "extras": { "mx_minefield": 100 } },
+      "road_nesw_manhole": { "chance": 20, "extras": { "mx_city_trap": 100 } },
+      "build": {
+        "chance": 90,
+        "extras": {
+          "mx_bandits_ambush": 50,
+          "mx_bandits_hideout": 50
+        }
+      },
+      "marloss": { "chance": 20, "extras": { "mx_marloss_pilgrimage": 100 } },
+      "subway": {
+        "chance": 75,
+        "extras": {
+          "mx_bandits_ambush": 20
+        }
+      },
+      "research_facility_interior": {
+        "chance": 2,
+        "extras": {
+          "mx_jabberwock": 1,
+          "mx_military": 5,
+          "mx_portal": 100,
+          "mx_crater": 300,
+          "mx_portal_in": 40,
+          "mx_point_burned_ground": 125,
+          "mx_casings": 30
+        }
+      }
+    },
+    "overmap_feature_flag_settings": { "clear_blacklist": false, "blacklist": [  ], "clear_whitelist": false, "whitelist": [  ] }
+  }
+]

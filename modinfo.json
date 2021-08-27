@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "More_Bandits",
+    "name": "More Bandits, Testing version",
+    "authors": [ "SzQ" ],
+    "maintainers": [ "SzQ" ],
+    "description": "Adds a lot more spawning locations for small groups of bandits making them much more frequent.  All code extracted from No_Hope mod by Night_Pryanik ",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
